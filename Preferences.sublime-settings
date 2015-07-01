@@ -39,6 +39,7 @@
 		80
 	],
 	"show_full_path": true,
+	"show_minimap": false,
 	"sublimelinter_gutter_marks": false,
 	"tabs_medium": true,
 	"tabs_padding_medium": true,
