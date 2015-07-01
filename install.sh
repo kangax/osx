@@ -171,7 +171,6 @@ open https://github.com/settings/ssh
 # https://github.com/mathiasbynens/dotfiles/blob/master/.osx
 
 # TODO: triggers for quicksilver
-# TODO: customize sublime + plugins
 
 echo "Installing translit..."
 wget http://www.math.tamu.edu/~comech/tools/russian-translit-keyboard-layout-mac-os-x/russian-translit.keylayout && mv russian-translit.keylayout ~/Library/Keyboard\ Layouts/
