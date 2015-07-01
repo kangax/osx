@@ -12,6 +12,7 @@ sudo -v
 # Keep-alive: update existing sudo time stamp if set, otherwise do nothing.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+# borrowed from https://github.com/thoughtbot/laptop
 append_to_zshrc() {
   local text="$1" zshrc
   local skip_new_line="${2:-0}"
@@ -40,6 +41,8 @@ fi
 # echo "Setting brew permissions..."
 # chown -R $USER /usr/local/include
 # chown -R $USER /usr/local/lib/pkgconfig
+
+# Inspired by http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac
 
 echo "Updating brew..."
 brew update
