@@ -2,6 +2,7 @@
 {
 	"animation_enabled": false,
 	"bold_folder_labels": false,
+	"default_encoding": "UTF-8",
 	"enable_tab_scrolling": false,
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -25,6 +26,13 @@
 		".keep",
 		"*.gemtags"
 	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_face": "Monaco",
+	"font_size": 13,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
