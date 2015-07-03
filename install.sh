@@ -61,6 +61,7 @@ binaries=(
   autojump
   cairo
   curl
+  ffmpeg
   git
   git-extras
   grep
@@ -76,6 +77,7 @@ binaries=(
   tree
   unrar
   wget
+  youtube-dl
   zopfli
   zsh
 )
@@ -152,7 +154,7 @@ brew install ${post_binaries[@]}
 
 brew cask cleanup
 
-echo "Installing oh my zsh..."
+echo "Installing oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # TODO: add to ohmyzsh `plugins=(git ...)` in .zshrc

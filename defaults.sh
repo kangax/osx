@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 ###############################################################################
-# My custom version of Mathias excellent https://mths.be/osx                  #
+# My custom version of Mathias' excellent https://mths.be/osx                  #
 ###############################################################################
 
 # Ask for the administrator password upfront
