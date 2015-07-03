@@ -1,3 +1,16 @@
+## Setting up new laptop
+
+1. Install XCode command line tools (https://developer.apple.com/downloads/, Sign In required)
+1. Run install.sh (see below)
+1. Run installers that need to be finished separately (uTorrent, Hearthstone, etc.)
+1. Run OSX customization file (aka Mathias .osx, see below)
+1. Update OS X and apps (through App Store)
+1. Map Caps to Ctrl in keyboard settings (since this is apparently quite difficult to do programmatically http://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool)
+1. Add translit as an input source in System Prefs (+ map it to Alt+Cmd+Space)
+1. Set Quicksilver triggers
+1. Install Fleep & YoruFukurou through App Store (since there's no casks for them... yet)
+
+
 ## install.sh
 
 This is the main script that installs 90%+ of things required to get a "working" OS X. It's meant to be run as part of a fresh install on a new laptop.
@@ -23,15 +36,3 @@ Specifies which Sublime packages to install
 ## Preferences.sublime-settings
 
 Specifies main Sublime settings
-
-## Setting up new laptop
-
-1. Install XCode command line tools (https://developer.apple.com/downloads/, Sign In required)
-1. Run install.sh
-1. Run installers that need to be finished separately (uTorrent, Hearthstone, etc.)
-1. Run OSX customization file (aka Mathias .osx)
-1. Update OS X and apps (through App Store)
-1. Map Caps to Ctrl in keyboard settings (since this is apparently quite difficult to do programmatically http://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool)
-1. Add translit as an input source in System Prefs (+ map it to Alt+Cmd+Space)
-1. Set Quicksilver triggers
-1. Install Fleep & YoruFukurou through App Store (since there's no casks for them... yet)
