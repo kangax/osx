@@ -1,8 +1,9 @@
 {
-	"installed_packages":
-	[
-		"GitGutter",
-		"Sass",
-		"SideBarEnhancements"
-	]
+  "installed_packages":
+  [
+    "GitGutter",
+    "Sass",
+    "SideBarEnhancements",
+    "Markdown Extended"
+  ]
 }
