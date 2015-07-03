@@ -1,58 +1,58 @@
 
 {
-	"animation_enabled": false,
-	"bold_folder_labels": false,
-	"default_encoding": "UTF-8",
-	"enable_tab_scrolling": false,
-	"enable_telemetry": false,
-	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
-		"*.sassc",
-		"*.scssc",
-		"*.log",
-		"*.gem",
-		"*.gz",
-		"*.pdf",
-		"*.zip",
-		"*.DS_store",
-		"*.eot",
-		"*.svg",
-		"*.ttf",
-		"*.woff",
-		"*.tags*",
-		"nohup.out",
-		"*.cache",
-		".keep",
-		"*.gemtags"
-	],
-	"folder_exclude_patterns":
-	[
-		".git",
-		"node_modules"
-	],
-	"font_face": "Monaco",
-	"font_size": 13,
-	"gutter": true,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"indent_guide_options":
-	[
-		"draw_normal"
-	],
-	"remember_open_files": false,
-	"rulers":
-	[
-		80
-	],
-	"show_full_path": true,
-	"show_minimap": false,
-	"sublimelinter_gutter_marks": false,
-	"tabs_medium": true,
-	"tabs_padding_medium": true,
-	
-	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~"
+  "animation_enabled": false,
+  "bold_folder_labels": false,
+  "default_encoding": "UTF-8",
+  "enable_tab_scrolling": false,
+  "enable_telemetry": false,
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns":
+  [
+    "*.sassc",
+    "*.scssc",
+    "*.log",
+    "*.gem",
+    "*.gz",
+    "*.pdf",
+    "*.zip",
+    "*.DS_store",
+    "*.eot",
+    "*.svg",
+    "*.ttf",
+    "*.woff",
+    "*.tags*",
+    "nohup.out",
+    "*.cache",
+    ".keep",
+    "*.gemtags"
+  ],
+  "folder_exclude_patterns":
+  [
+    ".git",
+    "node_modules"
+  ],
+  "font_face": "Monaco",
+  "font_size": 13,
+  "gutter": true,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "indent_guide_options":
+  [
+    "draw_normal"
+  ],
+  "remember_open_files": false,
+  "rulers":
+  [
+    80
+  ],
+  "show_full_path": true,
+  "show_minimap": false,
+  "sublimelinter_gutter_marks": false,
+  "tabs_medium": true,
+  "tabs_padding_medium": true,
+
+  "trim_trailing_white_space_on_save": true,
+  "use_simple_full_screen": true,
+  "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~"
 }
