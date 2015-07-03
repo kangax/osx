@@ -159,8 +159,8 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 
 echo "Customizing oh-my-zsh..."
 mkdir -p ~/.oh-my-zsh-custom
-wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/aliases.zsh && mv ~/.oh-my-zsh-custom
-wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/functions.zsh && mv ~/.oh-my-zsh-custom
+wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/aliases.zsh && mv aliases.zsh ~/.oh-my-zsh-custom
+wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/functions.zsh && mv functions.zsh ~/.oh-my-zsh-custom
 
 # TODO: Customize `plugins=(git ...)` in .zshrc
 # TODO: Add path to .oh-my-zsh-custom in .zshrc
