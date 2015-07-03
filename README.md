@@ -3,7 +3,7 @@
 1. Install XCode command line tools (https://developer.apple.com/downloads/, Sign In required)
 1. Run install.sh (see below)
 1. Run installers that need to be finished separately (uTorrent, Hearthstone, etc.)
-1. Run OSX customization file (aka Mathias .osx, see below)
+1. Run OS X customization file (aka Mathias .osx, see below)
 1. Update OS X and apps (through App Store)
 1. Map Caps to Ctrl in keyboard settings (since this is apparently quite difficult to do programmatically http://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool)
 1. Add translit as an input source in System Prefs (+ map it to Alt+Cmd+Space)
@@ -36,3 +36,11 @@ Specifies which Sublime packages to install
 ## Preferences.sublime-settings
 
 Specifies main Sublime settings
+
+## Inspired by / shamelessly stolen from these fine folks
+
+- [Hacker's Guide to Setting Up Your Mac](http://lapwinglabs.com/blog/hacker-guide-to-setting-up-your-mac)
+- [Thoughtbot's laptop setup](https://github.com/thoughtbot/laptop/blob/master/mac)
+- [Hakunin's dotfiles](https://github.com/maxim/dotfiles)
+- [Mathias' .osx](https://github.com/mathiasbynens/dotfiles/blob/master/.osx)
+
