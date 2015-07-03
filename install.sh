@@ -157,7 +157,13 @@ brew cask cleanup
 echo "Installing oh-my-zsh..."
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# TODO: add to ohmyzsh `plugins=(git ...)` in .zshrc
+echo "Customizing oh-my-zsh..."
+mkdir -p ~/.oh-my-zsh-custom
+wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/aliases.zsh && mv ~/.oh-my-zsh-custom
+wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/functions.zsh && mv ~/.oh-my-zsh-custom
+
+# TODO: Customize `plugins=(git ...)` in .zshrc
+# TODO: Add path to .oh-my-zsh-custom in .zshrc
 
 echo "Making autojump work with zsh..."
 append_to_zshrc '[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh'
