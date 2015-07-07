@@ -146,9 +146,10 @@ brew cask install --appdir="/Applications" ${apps[@]}
 
 echo "Don't forget to install Fleep separately (https://itunes.apple.com/us/app/fleep/id830440781?mt=12)"
 
-echo "Installing other binaries that require Java, etc..."
+echo "Installing other binaries that require Java, Fuse OS X, etc..."
 post_binaries=(
   elasticsearch
+  ntfs-3g
 )
 brew install ${post_binaries[@]}
 
