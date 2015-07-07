@@ -34,3 +34,7 @@ function whatsup {
   _findproc "rails server" && echo '"rails server"'
   _findproc spring && echo spring
 }
+
+function ytmp3 {
+  youtube-dl -i "$1" -o "%(title)s.%(ext)s" --extract-audio --audio-format "mp3"
+}
