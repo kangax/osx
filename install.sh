@@ -194,6 +194,7 @@ node_packages=(
   jshint
   jscs
   htmlhint
+  qunit
 )
 npm install -g ${node_packages[@]}
 
