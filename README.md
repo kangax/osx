@@ -48,3 +48,6 @@ Defines custom functions and alises for oh-my-zsh
 - [Hakunin's dotfiles](https://github.com/maxim/dotfiles)
 - [Mathias' .osx](https://github.com/mathiasbynens/dotfiles/blob/master/.osx)
 
+## Something similar (found later)
+
+- [Miller Medeiros' Setup Mac OS X Mountain Lion or Mavericks](https://gist.github.com/millermedeiros/6615994)
