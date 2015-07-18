@@ -31,3 +31,5 @@ alias pgrep='ps ax | grep -v grep | grep $1'
 
 # sublime
 alias sp='subl "${PWD##*/}.sublime-project"'
+
+alias optim_changed='git status --porcelain | awk "{print $2}" | imageOptim'

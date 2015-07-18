@@ -195,6 +195,7 @@ node_packages=(
   jscs
   htmlhint
   qunit
+  imageoptim-cli
 )
 npm install -g ${node_packages[@]}
 
