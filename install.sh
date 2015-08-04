@@ -196,6 +196,7 @@ node_packages=(
   htmlhint
   qunit
   imageoptim-cli
+  caniuse-cmd
 )
 npm install -g ${node_packages[@]}
 
