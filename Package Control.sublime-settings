@@ -1,6 +1,7 @@
 {
   "installed_packages":
   [
+    "All Autocomplete",
     "GitGutter",
     "Sass",
     "SideBarEnhancements",
