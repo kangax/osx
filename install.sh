@@ -61,6 +61,7 @@ binaries=(
   autojump
   cairo
   curl
+  casperjs
   ffmpeg
   git
   git-extras
@@ -74,6 +75,7 @@ binaries=(
   redis
   rhino
   ruby-build
+  slimerjs
   tree
   unrar
   wget
@@ -186,17 +188,22 @@ open https://github.com/settings/ssh
 echo "Installing translit..."
 wget http://www.math.tamu.edu/~comech/tools/russian-translit-keyboard-layout-mac-os-x/russian-translit.keylayout && mv russian-translit.keylayout ~/Library/Keyboard\ Layouts/
 
+echo "Installing nvm..."
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | bash
+
 echo "Installing global node packages..."
 node_packages=(
   bower
+  browserify
+  caniuse-cmd
   grunt
   gulp
+  htmlhint
+  imageoptim-cli
   jshint
   jscs
-  htmlhint
   qunit
-  imageoptim-cli
-  caniuse-cmd
+  watchify
 )
 npm install -g ${node_packages[@]}
 
