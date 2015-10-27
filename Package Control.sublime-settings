@@ -5,6 +5,8 @@
     "GitGutter",
     "Sass",
     "SideBarEnhancements",
+    "SublimeLinter",
+    "SublimeLinter-jshint",
     "Markdown Extended",
     "Pretty JSON"
   ]
