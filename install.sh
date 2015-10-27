@@ -120,6 +120,7 @@ apps=(
   imageoptim
   grandperspective
   istat-menus
+  qlvideo # to display video files in finder and quick look
 
   # sharing
   dropbox
