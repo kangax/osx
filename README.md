@@ -8,7 +8,7 @@
 1. Map Caps to Ctrl in keyboard settings (since this is apparently quite difficult to do programmatically http://apple.stackexchange.com/questions/13598/updating-modifier-key-mappings-through-defaults-command-tool)
 1. Add translit as an input source in System Prefs (+ map it to Alt+Cmd+Space)
 1. Set Quicksilver triggers
-1. Customize iTerm settings ("quit when all windows are closed", etc.; should this be automated?)
+1. Customize iTerm settings ("quit when all windows are closed", "preserve window positions", etc.; should this be automated?)
 1. Install Fleep & YoruFukurou through App Store (since there's no casks for them... yet)
 
 
