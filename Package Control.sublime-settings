@@ -2,6 +2,7 @@
   "installed_packages":
   [
     "All Autocomplete",
+    "Babel",
     "GitGutter",
     "Sass",
     "SideBarEnhancements",
