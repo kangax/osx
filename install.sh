@@ -128,7 +128,7 @@ apps=(
 
   # browsers
   google-chrome
-  firefox-nightly
+  firefoxnightly
   webkit-nightly
 
   # communication
