@@ -1,6 +1,7 @@
 ## Setting up new laptop
 
 1. Install XCode command line tools ([https://developer.apple.com/downloads/](https://developer.apple.com/downloads/), "Sign In" required)
+1. Run `sudo chown -R $USER /usr/local`
 1. Run install.sh (see below)
 1. Run installers that need to be finished separately (uTorrent, Hearthstone, etc.)
 1. Run OS X customization file (aka Mathias .osx, see below)
