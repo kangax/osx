@@ -113,7 +113,7 @@ apps=(
   osxfuse
   1password
   spectacle
-  flash
+  flash-npapi
   java
   quicklook-json
   macpar-deluxe
