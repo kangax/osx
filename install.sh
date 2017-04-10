@@ -102,7 +102,7 @@ apps=(
   # work
   rowanj-gitx
   iterm2
-  sublime-text3
+  sublime-text
   virtualbox
 
   # productivity, core, runtimes
