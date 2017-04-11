@@ -170,6 +170,7 @@ wget https://raw.githubusercontent.com/kangax/osx/master/.oh-my-zsh-custom/funct
 
 # TODO: Customize `plugins=(git ...)` in .zshrc
 # TODO: Add path to .oh-my-zsh-custom in .zshrc
+# See https://github.com/maxim/dotfiles/blob/f381e8e6248184e453caa92284a10592b6914ef1/.zshrc#L8-L9
 
 echo "Making autojump work with zsh..."
 append_to_zshrc '[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh'
