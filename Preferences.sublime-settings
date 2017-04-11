@@ -51,7 +51,8 @@
   "sublimelinter_gutter_marks": false,
   "tabs_medium": true,
   "tabs_padding_medium": true,
-
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "use_simple_full_screen": true,
   "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~"
