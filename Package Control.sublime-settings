@@ -9,6 +9,7 @@
     "SublimeLinter",
     "SublimeLinter-jshint",
     "Markdown Extended",
-    "Pretty JSON"
+    "Pretty JSON",
+    "SyncedSideBar"
   ]
 }
