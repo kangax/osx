@@ -195,15 +195,11 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | 
 
 echo "Installing global node packages..."
 node_packages=(
-  # bower
-  browserify
   caniuse-cmd
+  git-open
   grunt
   gulp
-  # htmlhint
   imageoptim-cli
-  # jshint
-  jscs
   qunit
   watchify
 )
