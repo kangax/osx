@@ -197,10 +197,7 @@ echo "Installing global node packages..."
 node_packages=(
   caniuse-cmd
   git-open
-  grunt
-  gulp
   imageoptim-cli
-  qunit
   watchify
 )
 npm install -g ${node_packages[@]}
