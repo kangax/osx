@@ -11,6 +11,7 @@
 1. Set Quicksilver triggers
 1. Customize iTerm settings ("quit when all windows are closed", "preserve window positions", etc.; should this be automated?)
 1. Install messenger from https://fbmacmessenger.rsms.me/
+1. Install Twitter on App Store
 
 
 ## install.sh
