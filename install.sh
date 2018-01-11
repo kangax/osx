@@ -118,6 +118,7 @@ apps=(
   java
   quicklook-json
   macpar-deluxe
+  notational-velocity
   imageoptim
   grandperspective
   istat-menus
