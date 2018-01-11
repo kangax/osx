@@ -65,6 +65,7 @@ binaries=(
   ffmpeg
   git
   git-extras
+  git-town
   grep
   imagemagick --with-webp
   mackup
