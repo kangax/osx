@@ -130,26 +130,23 @@ apps=(
 
   # browsers
   google-chrome
-  firefoxnightly
-  webkit-nightly
+  firefox-nightly
+  # webkit-nightly
 
   # communication
-  skype
+  # skype
 
   # entertainment
   spotify
   vlc
-  hearthstone-eu # needs further installation
 
   # file sharing
-  utorrent # needs further installation
+  qbittorrent # needs further installation
   unison
 )
 
 echo "Installing apps to /Applications..."
 brew cask install --appdir="/Applications" ${apps[@]}
-
-echo "Don't forget to install Fleep separately (https://itunes.apple.com/us/app/fleep/id830440781?mt=12)"
 
 brew tap homebrew/fuse
 
