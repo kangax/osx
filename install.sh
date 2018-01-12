@@ -198,6 +198,7 @@ node_packages=(
   git-open
   imageoptim-cli
   import-js
+  prettier
   watchify
 )
 npm install -g ${node_packages[@]}
