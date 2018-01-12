@@ -197,6 +197,7 @@ node_packages=(
   caniuse-cmd
   git-open
   imageoptim-cli
+  import-js
   watchify
 )
 npm install -g ${node_packages[@]}
