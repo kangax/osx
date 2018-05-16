@@ -103,7 +103,6 @@ apps=(
   # work
   rowanj-gitx
   iterm2
-  sublime-text
   virtualbox
 
   # productivity, core, runtimes
@@ -119,43 +118,26 @@ apps=(
   quicklook-json
   macpar-deluxe
   notational-velocity
-  imageoptim
   grandperspective
   istat-menus
   qlvideo # to display video files in finder and quick look
 
   # sharing
   dropbox
-  google-drive
 
   # browsers
   google-chrome
-  firefox-nightly
-  # webkit-nightly
-
-  # communication
-  # skype
 
   # entertainment
   spotify
   vlc
 
   # file sharing
-  qbittorrent # needs further installation
-  unison
+  qbittorrent
 )
 
 echo "Installing apps to /Applications..."
 brew cask install --appdir="/Applications" ${apps[@]}
-
-brew tap homebrew/fuse
-
-echo "Installing other binaries that require Java, Fuse OS X, etc..."
-post_binaries=(
-  elasticsearch
-  ntfs-3g
-)
-brew install ${post_binaries[@]}
 
 brew cask cleanup
 
@@ -194,12 +176,11 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | 
 
 echo "Installing global node packages..."
 node_packages=(
-  caniuse-cmd
   git-open
-  imageoptim-cli
   import-js
   prettier
-  watchify
+  flow
+  yarn
 )
 npm install -g ${node_packages[@]}
 
