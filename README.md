@@ -13,6 +13,7 @@
 1. Install messenger from https://fbmacmessenger.rsms.me/ (as of 2017-01-12 doesn't seem to work on High Sierra)
 1. Install Twitter on App Store
 1. Install Rocket from http://matthewpalmer.net/rocket/
+2. new
 
 
 ## install.sh
